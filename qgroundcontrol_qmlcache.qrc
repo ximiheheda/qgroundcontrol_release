@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="/unittest"/>
+    <qresource prefix="/toolbar"/>
+    <qresource prefix="/qml">
+        <file alias="QGroundControl/Controls/qmldir">../qgroundcontrol/src/QmlControls/QGroundControl.Controls.qmldir</file>
+        <file alias="QGroundControl/FactControls/qmldir">../qgroundcontrol/src/FactSystem/FactControls/qmldir</file>
+        <file alias="QGroundControl/FlightDisplay/qmldir">../qgroundcontrol/src/FlightDisplay/qmldir</file>
+        <file alias="QGroundControl/FlightMap/qmldir">../qgroundcontrol/src/FlightMap/qmldir</file>
+        <file alias="QGroundControl/ScreenTools/qmldir">../qgroundcontrol/src/QmlControls/QGroundControl.ScreenTools.qmldir</file>
+    </qresource>
+    <qresource prefix="/json">
+        <file alias="CameraCalc.FactMetaData.json">../qgroundcontrol/src/MissionManager/CameraCalc.FactMetaData.json</file>
+        <file alias="CameraSpec.FactMetaData.json">../qgroundcontrol/src/MissionManager/CameraSpec.FactMetaData.json</file>
+        <file alias="CorridorScan.SettingsGroup.json">../qgroundcontrol/src/MissionManager/CorridorScan.SettingsGroup.json</file>
+        <file alias="EditPositionDialog.FactMetaData.json">../qgroundcontrol/src/QmlControls/EditPositionDialog.FactMetaData.json</file>
+        <file alias="QGCMapCircle.Facts.json">../qgroundcontrol/src/MissionManager/QGCMapCircle.Facts.json</file>
+        <file alias="StructureScan.SettingsGroup.json">../qgroundcontrol/src/MissionManager/StructureScan.SettingsGroup.json</file>
+        <file alias="TransectStyle.SettingsGroup.json">../qgroundcontrol/src/MissionManager/TransectStyle.SettingsGroup.json</file>
+        <file alias="App.SettingsGroup.json">../qgroundcontrol/src/Settings/App.SettingsGroup.json</file>
+        <file alias="AutoConnect.SettingsGroup.json">../qgroundcontrol/src/Settings/AutoConnect.SettingsGroup.json</file>
+        <file alias="BrandImage.SettingsGroup.json">../qgroundcontrol/src/Settings/BrandImage.SettingsGroup.json</file>
+        <file alias="CameraSection.FactMetaData.json">../qgroundcontrol/src/MissionManager/CameraSection.FactMetaData.json</file>
+        <file alias="FlightMap.SettingsGroup.json">../qgroundcontrol/src/Settings/FlightMap.SettingsGroup.json</file>
+        <file alias="FWLandingPattern.FactMetaData.json">../qgroundcontrol/src/MissionManager/FWLandingPattern.FactMetaData.json</file>
+        <file alias="FlyView.SettingsGroup.json">../qgroundcontrol/src/Settings/FlyView.SettingsGroup.json</file>
+        <file alias="PlanView.SettingsGroup.json">../qgroundcontrol/src/Settings/PlanView.SettingsGroup.json</file>
+        <file alias="MavCmdInfoCommon.json">../qgroundcontrol/src/MissionManager/MavCmdInfoCommon.json</file>
+        <file alias="MavCmdInfoFixedWing.json">../qgroundcontrol/src/MissionManager/MavCmdInfoFixedWing.json</file>
+        <file alias="MavCmdInfoMultiRotor.json">../qgroundcontrol/src/MissionManager/MavCmdInfoMultiRotor.json</file>
+        <file alias="MavCmdInfoRover.json">../qgroundcontrol/src/MissionManager/MavCmdInfoRover.json</file>
+        <file alias="MavCmdInfoSub.json">../qgroundcontrol/src/MissionManager/MavCmdInfoSub.json</file>
+        <file alias="MavCmdInfoVTOL.json">../qgroundcontrol/src/MissionManager/MavCmdInfoVTOL.json</file>
+        <file alias="MissionSettings.FactMetaData.json">../qgroundcontrol/src/MissionManager/MissionSettings.FactMetaData.json</file>
+        <file alias="RallyPoint.FactMetaData.json">../qgroundcontrol/src/MissionManager/RallyPoint.FactMetaData.json</file>
+        <file alias="RTK.SettingsGroup.json">../qgroundcontrol/src/Settings/RTK.SettingsGroup.json</file>
+        <file alias="SpeedSection.FactMetaData.json">../qgroundcontrol/src/MissionManager/SpeedSection.FactMetaData.json</file>
+        <file alias="Survey.SettingsGroup.json">../qgroundcontrol/src/MissionManager/Survey.SettingsGroup.json</file>
+        <file alias="Units.SettingsGroup.json">../qgroundcontrol/src/Settings/Units.SettingsGroup.json</file>
+        <file alias="USBBoardInfo.json">../qgroundcontrol/src/comm/USBBoardInfo.json</file>
+        <file alias="Vehicle/BatteryFact.json">../qgroundcontrol/src/Vehicle/BatteryFact.json</file>
+        <file alias="Vehicle/ClockFact.json">../qgroundcontrol/src/Vehicle/ClockFact.json</file>
+        <file alias="Vehicle/DistanceSensorFact.json">../qgroundcontrol/src/Vehicle/DistanceSensorFact.json</file>
+        <file alias="Vehicle/EstimatorStatusFactGroup.json">../qgroundcontrol/src/Vehicle/EstimatorStatusFactGroup.json</file>
+        <file alias="Vehicle/GPSFact.json">../qgroundcontrol/src/Vehicle/GPSFact.json</file>
+        <file alias="Vehicle/GPSRTKFact.json">../qgroundcontrol/src/Vehicle/GPSRTKFact.json</file>
+        <file alias="Vehicle/SetpointFact.json">../qgroundcontrol/src/Vehicle/SetpointFact.json</file>
+        <file alias="Vehicle/SubmarineFact.json">../qgroundcontrol/src/Vehicle/SubmarineFact.json</file>
+        <file alias="Vehicle/TemperatureFact.json">../qgroundcontrol/src/Vehicle/TemperatureFact.json</file>
+        <file alias="Vehicle/VehicleFact.json">../qgroundcontrol/src/Vehicle/VehicleFact.json</file>
+        <file alias="Vehicle/VibrationFact.json">../qgroundcontrol/src/Vehicle/VibrationFact.json</file>
+        <file alias="Vehicle/WindFact.json">../qgroundcontrol/src/Vehicle/WindFact.json</file>
+        <file alias="Video.SettingsGroup.json">../qgroundcontrol/src/Settings/Video.SettingsGroup.json</file>
+    </qresource>
+    <qresource prefix="/MockLink">
+        <file alias="APMArduCopterMockLink.params">../qgroundcontrol/src/comm/APMArduCopterMockLink.params</file>
+        <file alias="APMArduPlaneMockLink.params">../qgroundcontrol/src/comm/APMArduPlaneMockLink.params</file>
+        <file alias="APMArduSubMockLink.params">../qgroundcontrol/src/comm/APMArduSubMockLink.params</file>
+        <file alias="PX4MockLink.params">../qgroundcontrol/src/comm/PX4MockLink.params</file>
+    </qresource>
+</RCC>
